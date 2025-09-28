@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background: #f0eee3;
+    text-align: center;
+}
+.info-section {
+    text-align: left;
+    margin-left: 30px; 
+}
+.csp{
+    color: #C66F80;
+    text-decoration: none;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+hr{
+    border: 0;
+    height: 3px;
+    background: #cdc0b6;
+    margin: 10px 0px;
+}
+.header-bar {
+    background: #9FAA74;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.nav-btn {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 0 8px;
+    background: #FCEBF1;
+    color: #4A6644;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1em;
+    transition: background 0.2s;
+    border: none;
+}
+.nav-btn:hover {
+    background: #C66F80;
+    color: #fff;
+}
+button {
+  background: #9FAA74;     
+  color: #fff;            
+  padding: 10px 20px;       
+  border: none;           
+  border-radius: 8px;       
+  font-size: 1em;          
+  font-family: monospace;
+  cursor: pointer;        
+  transition: background 0.3s, transform 0.2s;
+  margin-top: 30px;
+}
+button:hover {
+  background: #4A6644;   
+}
+.sidebar {
+    background: #F4C7D0;
+    color: #222;
+    text-align: center;
+    padding: 20px 10px;
+    height: 100%;
+}
+.profile-pic {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 10px solid #3a3f2c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+.art-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 5px solid #3a3f2c;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.brushes-grid {
+    display: grid;
+    grid-template-columns: .4fr 1fr;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#luckyCat {
+    display: none;
+    max-width: 150px;
+    margin: 10px auto 0 auto;
+}
+#brushes {
+  display: none;
+}
