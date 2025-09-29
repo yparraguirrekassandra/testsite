@@ -11,25 +11,22 @@ function showDateTime() {
 function showSurprise() {
   const btn = document.getElementById('surpriseBtn');
   const cat = document.getElementById('luckyCat');
-  const text = document.getElementById('surpriseText');
 
   if (cat.style.display === "block") {
     cat.style.display = "none";
     btn.textContent = "Click for a Surprise";
-    text.textContent = "";
   } else {
     cat.style.display = "block";
     btn.textContent = "Congrats! You've found the lucky cat, may you be blessed with good luck.";
-    text.textContent = "";
   }
 }
 
 function toggleBrushes() {
   let brushes = document.getElementById("brushes");
-  if (brushes.style.display === "none") {
-    brushes.style.display = "block";
-  } else {
+  if (brushes.style.display === "block") {
     brushes.style.display = "none";
+  } else {
+    brushes.style.display = "block";
   }
 }
 
